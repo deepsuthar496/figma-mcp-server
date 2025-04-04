@@ -1,5 +1,7 @@
 # Figma MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@deepsuthar496/figma-mcp-server)](https://smithery.ai/server/@deepsuthar496/figma-mcp-server)
+
 A Model Context Protocol (MCP) server that provides integration with Figma's API, allowing you to interact with Figma files, comments, components, and more.
 
 ## Features
@@ -26,6 +28,15 @@ A Model Context Protocol (MCP) server that provides integration with Figma's API
 
 ## Installation
 
+### Installing via Smithery
+
+To install Figma MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@deepsuthar496/figma-mcp-server):
+
+```bash
+npx -y @smithery/cli install @deepsuthar496/figma-mcp-server --client claude
+```
+
+### Manual Installation
 1. Clone the repository
 2. Install dependencies:
 ```bash
